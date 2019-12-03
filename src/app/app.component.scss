@@ -1,0 +1,19 @@
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary {
+    @extend .center-flex;
+    height: 100%;    
+    background-color: var(--primary-color);
+}
+
+.accent {
+    @extend .center-flex;
+    height: 200px;
+    width: 500px;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
